@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">Battleships</string>
+
+    <!-- General -->
+    <string name="name">Name:</string>
+    <string name="connection_failed">Connection failure</string>
+    <string name="jwt_token_expired">Session expired</string>
+
+
+    <!-- Intent Extras -->
+    <string name="extra_restService">restService</string>
+    <string name="extra_client">client</string>
+    <string name="extra_shipPreset">shipPreset</string>
+    <string name="extra_initiator">initiator</string>
+    <string name="extra_initiatorField">initiatorField</string>
+    <string name="extra_game">game</string>
+
+    <!-- Rest -->
+    <string name="rest_authorization">Authorization</string>
+
+    <!-- Strings related to menu bar -->
+    <string name="action_logout">Logout</string>
+    <string name="action_config_account">Configure Account</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_tone">tone</string>
+
+    <!-- Strings related to login/registration -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="error_invalid_username">This username is invalid</string>
+    <string name="error_username_already_exists">Username already taken</string>
+    <string name="error_invalid_password_length">This password is too short</string>
+    <string name="error_invalid_password_number">Password must contain number/s</string>
+    <string name="error_invalid_password_symbol">Password must contain symbol/s</string>
+    <string name="error_invalid_password_match">Passwords do not match</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_authentification_with_rest_service">Authentification with Rest Service failed.</string>
+    <string name="error_connection">Connection failure</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Login -->
+    <string name="title_activity_login">Login</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="action_play_offline">Play Offline</string>
+    <string name="logging_in">logging in</string>
+    <string name="link_to_registration">Not registered? Sign up!</string>
+
+    <!-- Registration -->
+    <string name="title_activity_register">Registration</string>
+    <string name="prompt_password_confirmation">Confirm Password</string>
+    <string name="action_sign_up">Register</string>
+    <string name="action_sign_up_short">Register</string>
+    <string name="registration_successful">Registration successful</string>
+    <string name="registration_failed">Registration failed</string>
+    <string name="sign_up">Signing up</string>
+
+    <!-- Configure Account -->
+    <string name="title_activity_configure_account">Configure Account</string>
+    <string name="account_delete">Account deleted</string>
+    <string name="failed_delete_account">Failed to delete account</string>
+    <string name="account_information_updated">Account information updated</string>
+    <string name="failed_update_account">Failed to update account</string>
+    <string name="password">Password:</string>
+
+
+    <!-- Configure Game -->
+    <string name="title_activity_configure_game">Configure Game</string>
+    <string name="error_create_new_game">Failed to create new game</string>
+    <string name="input_game_name">Game name has to be filled</string>
+    <string name="game_name">Name</string>
+    <string name="game_description">Description</string>
+    <string name="create_new_game">CREATE GAME</string>
+
+    <!-- Game -->
+    <string name="title_activity_game">Game Session</string>
+    <string name="rage_quit">Rage Quit?</string>
+    <string name="quit">Screw it.</string>
+    <string name="go_on">Keep Dignity.</string>
+    <string name="failed_to_update_game">Failed to update the game</string>
+
+    <!-- Placement -->
+    <string name="title_activity_placement">Place Ships</string>
+    <string name="failed_ship_placement">Failed to place ships at given positions.</string>
+    <string name="confirm_button">CONFIRM</string>
+
+
+    <!-- Lobby -->
+    <string name="title_activity_lobby">Game Lobby</string>
+    <string name="join_game">Entered game</string>
+    <string name="error_join_game">Failed to join the game</string>
+
+    <!-- Game Board Fragment -->
+    <string name="out_of_battlefield">Don\'t leave the battlefield soldier!</string>
+    <string name="no_ship_stacking">Ships cannot be stacked :)</string>
+    <string name="winner">Winner</string>
+    <string name="Loser">Loser</string>
+    <string name="fire_on_already_hit_position">Don\'t waste your shells, Soldier!</string>
+    <string name="other_players_turn">Play by the rules, Soldier!</string>
+    <!-- list item lobby -->
+    <string name="list_game_description">Description:</string>
+
+    <!-- Dialog -->
+    <string name="dialog_choose_name">Choose new name</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="mask_password">••••••••</string>
+    <string name="current_password">Type in current password</string>
+    <string name="false_password">Password is false!</string>
+    <string name="right_password">Password correct</string>
+    <string name="new_password">Type in new password</string>
+    <string name="new_password_confirm">Confirm new password</string>
+    <string name="password_changed">Password successful changed</string>
+    <string name="change_description">Configure your description</string>
+    <string name="delete_account">Are you sure you want to delete this Account?</string>
+    <string name="confirm_ship_placement">Are you ready to start the game?</string>
+    <string name="title_activity_ringtone_">Ringtone_Activity</string>
+    <string name="help">Help</string>
+    <string name="help_message">"" +
+                        "Rotate:    Tap once\n" +
+                        "Drag:       Press and Hold"</string>
+    <string name="waiting_queue">Waiting for other player</string>
+
+    <!-- Offline Mode -->
+    <string name="extra_offline">offlineMode</string>
+    <string name="extra_offline_game_initiator">offlineGameInitiator</string>
+    <string name="extra_offline_game_player_2">offlineGamePlayer2</string>
+    <string name="extra_offline_game_result">offlineGameResult</string>
+    <string name="offline_player1_tag">Player 1</string>
+    <string name="offline_player2_tag">Player 2</string>
+
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:id="@+id/placement_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_waiting_queue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="0.00"
+                android:text="@string/waiting_queue"
+                android:textAlignment="center"
+                android:textAllCaps="true" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="0.00"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/placement_progress_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="90dp"
+                android:layout_weight="0.00"
+                android:text="@string/cancel_button" />
+        </LinearLayout>
+    </GridLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_placement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview_offline_player_tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:textAlignment="center"
+            android:visibility="gone" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/activity_placement_board_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.00">
+
+            <LinearLayout
+                android:id="@+id/activity_placement_board_table_wrapper"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+        </android.support.constraint.ConstraintLayout>
+
+        <Button
+            android:id="@+id/activity_placement_confirm_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:background="@android:color/holo_blue_dark"
+            android:text="@string/confirm_button"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/placement_help_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            app:backgroundTint="@android:color/holo_orange_light"
+            app:fabSize="mini"
+            app:srcCompat="@android:drawable/ic_menu_help" />
+    </LinearLayout>
+
+</LinearLayout>

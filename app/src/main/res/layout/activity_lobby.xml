@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+      >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/list_view_lobby"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipChildren="false">
+
+
+            </ListView>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/list_view_lobby">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/add_lobby_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:clickable="true"
+                    app:backgroundTint="#000080"
+                    app:fabSize="normal"
+                    app:srcCompat="@android:drawable/ic_menu_add" />
+            </GridLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+
